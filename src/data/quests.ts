@@ -183,17 +183,17 @@ export const quests: Quest[] = [
       },
       {
         id: "step-5-2",
-        instruction: "Examine how Customer properties map to lakehouse columns",
+        instruction: "Examine how Customer properties map to source columns",
         targetType: "property",
         targetId: "name",
         hint: "Notice how 'name' maps to 'full_name' in the source"
       },
       {
         id: "step-5-3",
-        instruction: "Check the Product entity's binding to see Power BI semantic model connection",
+        instruction: "Check the Product entity's binding and note the source and table",
         targetType: "entity",
         targetId: "product",
-        hint: "Products connect to a Power BI semantic model"
+        hint: "Look at the Data Bindings card under Product"
       }
     ],
     reward: {
